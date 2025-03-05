@@ -1,0 +1,66 @@
+/* Cat */
+
+*{ 
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    background-color: aqua;
+    color: chocolate;
+
+}
+
+section{
+    margin: 0px auto;
+    text-align: center;
+    background-color:lightgrey;
+    color: darkgray;
+    width: 300px;
+    border-radius: 25px;
+    overflow: hidden;
+   
+}
+
+section img{
+    width: 100%;
+}
+
+.card{
+    background-color:greenyellow
+}
+
+p{
+    font-size: medium;
+    padding: 5px;
+    ;
+    box-sizing: border-box;
+
+}
+p{    font-size: larger;
+    padding: 5px;
+    background-color:greenyellow;
+    box-sizing: border-box;
+    
+}
+
+.card p {
+    padding: 3px;
+    margin: 5px 0px;
+}
+
+.card p:nth-child(3){
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.card p:nth-child(4){
+    font-size: 1.5em;
+    font-weight: bold;
+    color: aquamarine;
+    box-sizing: border-box;
+}
